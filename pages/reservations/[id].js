@@ -8,7 +8,7 @@ import { lineNotify } from '../../lib/lineNotify';
 import { TextareaAutosize } from '@mui/base';
 import { Button } from '@mui/material';
 
-export default function Staff({ reservation, serviceDomain, microcmsApiKey }) {
+export default function Reservation({ reservation, serviceDomain, microcmsApiKey }) {
   const client = createMicrocmsClient({
     serviceDomain: serviceDomain,
     apiKey: microcmsApiKey,
